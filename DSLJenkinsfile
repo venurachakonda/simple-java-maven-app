@@ -4,5 +4,6 @@
 
 dslDeliveryPipeline {
 scmUrl = 'https://github.com/venurachakonda/simple-java-maven-app.git'
+branch = ${env.GIT_BRANCH}
 unitTests = true
 }
