@@ -1,9 +1,11 @@
 
 @Library('shared-utils') _
 
+def branchname = env.BRANCH_NAME
+
 
 dslDeliveryPipeline {
 scmUrl = 'https://github.com/venurachakonda/simple-java-maven-app.git'
-branch = env.GIT_BRANCH
+branch = branchname
 unitTests = true
 }
