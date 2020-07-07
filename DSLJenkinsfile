@@ -1,0 +1,8 @@
+
+@Library('shared-utils') _
+
+
+dslDeliveryPipeline {
+scmUrl = 'https://github.com/venurachakonda/simple-java-maven-app.git'
+unitTests = true
+}
